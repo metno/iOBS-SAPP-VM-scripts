@@ -12,4 +12,9 @@ git commit -m "Automatic commit: backup"   > /dev/null  2>&1
 git push origin staging  > /dev/null  2>&1
 git push github staging  > /dev/null  2>&1
 popd > /dev/null
+pushd "/home/ma/macz/iobs_scripts/" > /dev/null  2>&1
+git add /home/ma/macz/iobs_scripts/*  > /dev/null  2>&1
+git commit -m "Automatic commit: backup"   > /dev/null  2>&1
+git push github staging  > /dev/null  2>&1
+popd > /dev/null
 
